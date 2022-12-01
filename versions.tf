@@ -7,7 +7,7 @@ terraform {
     kubernetes = ">= 1.10.0, < 3.0.0"
     kubectl = {
       source  = "gavinbunney/kubectl"
-      version = "~> 2.7.1"
+      version = "~> 1.10"
     }
   }
 }
